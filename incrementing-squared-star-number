@@ -1,0 +1,13 @@
+a = int(input("Enter the number of rows: "))
+n = 1
+rows = []
+for i in range(a):
+    row = ""
+    for j in range(a):
+        row += str(n)
+        n += 1
+        if j != a - 1:
+            row += "*"
+    rows.append(row)
+for row in reversed(rows):
+    print(row)
