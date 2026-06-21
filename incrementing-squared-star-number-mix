@@ -6,7 +6,6 @@ for i in range(a):
     for j in range(a):
         row += str(n)
         n += 1
-
         if j != a - 1:
             row += "*"
     rows.append(row)
