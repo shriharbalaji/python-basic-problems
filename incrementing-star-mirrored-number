@@ -1,3 +1,8 @@
+"""
+name: incrementing-star-mirrored-number
+Purpose: This code generates an incrementing star mirrored number pattern based on the input number `a`.
+
+"""
 a=int(input("Enter the number of rows: "))
 n = 1
 for i in range(n , a+1):

@@ -1,3 +1,8 @@
+"""
+name: incrementing-star-number-mix
+Purpose: This code generates an incrementing star number pattern with a mix of rows based on the input number `a`.
+
+"""
 a = int(input("Enter the number of rows: "))
 starts = [1]
 for i in range(1, a):

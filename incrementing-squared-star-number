@@ -1,3 +1,8 @@
+"""
+name: incrementing-squared-star-number
+Purpose: This code generates an incrementing squared star number pattern based on the input number `a`.
+
+"""
 a = int(input("Enter the number of rows: "))
 n = 1
 rows = []

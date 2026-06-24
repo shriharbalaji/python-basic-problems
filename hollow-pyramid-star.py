@@ -1,3 +1,8 @@
+"""
+name: hollow-pyramid-star
+Purpose: This code generates a hollow pyramid star pattern based on the input number `n`.
+
+"""
 n=int(input("Enter a number: "))
 for i in range(n):
     for s in range(n-i-1):

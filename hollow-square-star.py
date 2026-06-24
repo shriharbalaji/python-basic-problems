@@ -1,3 +1,8 @@
+"""
+name: hollow-square-star
+Purpose: This code generates a hollow square star pattern based on the input number `n`.
+
+"""
 n=int(input("Enter a number: "))
 for i in range(n):
     for j in range(n):

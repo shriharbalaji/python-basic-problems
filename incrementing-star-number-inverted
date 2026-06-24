@@ -1,3 +1,8 @@
+"""
+name: incrementing-star-number-inverted
+Purpose: This code generates an incrementing star number inverted pattern based on the input number `a`.
+
+"""
 a = int(input("Enter the number of rows: "))
 rows = []
 n = 1
