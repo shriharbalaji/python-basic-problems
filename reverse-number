@@ -1,0 +1,8 @@
+"""
+name: Reverse a number
+Purpose: To reverse a number entered by the user
+
+"""
+a=int(input("Enter a numbers of series: "))
+x=int(str(a)[::-1])
+print("The reverse of the number is:", x)
