@@ -1,0 +1,15 @@
+"""
+name: Frequency of characters in a string
+Purpose: To find the frequency of characters in a string entered by the user
+
+"""
+a = input("Enter a string: ")
+visited = ""
+for i in a:
+    if i not in visited:
+        count = 0
+        for j in a:
+            if i == j:
+                count += 1
+        print(i,"appears",count,"times")
+        visited += i
