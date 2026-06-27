@@ -4,5 +4,9 @@ Purpose: To reverse a number entered by the user
 
 """
 a=int(input("Enter a numbers of series: "))
-x=int(str(a)[::-1])
-print("The reverse of the number is:", x)
+n = 0
+while a > 0:
+    x = a % 10 # Extract the last digit "% returns the remainder of a division"
+    n = n * 10 + x # Build the reversed number 
+    a //= 10 # Remove the last digit from the original number "// returns the integer part of a division"
+print("The reverse of the number is:", n)
